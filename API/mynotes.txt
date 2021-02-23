@@ -1,0 +1,15 @@
+//https://www.nuget.org/  == to install dotnet-ef -- entity frame work
+dotnet tool install --global dotnet-ef --version 6.0.0-preview.1.21102.2
+
+
+1. migration command
+dotnet ef migrations add  InitialCreate -o Data/Migrations
+
+if you got any below missing error - install from NugetPackage/NugetGallery
+Microsoft.EntityFrameworkCore.Design
+
+2. To undo this action, use 'ef migrations remove'
+
+
+3. create/update database
+dotnet ef database update
