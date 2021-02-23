@@ -1,4 +1,7 @@
-//https://www.nuget.org/  == to install dotnet-ef -- entity frame work
+
+//Dotnet Core EntityFrameworkCore
+
+https://www.nuget.org/  == to install dotnet-ef -- entity frame work
 dotnet tool install --global dotnet-ef --version 6.0.0-preview.1.21102.2
 
 
@@ -13,3 +16,10 @@ Microsoft.EntityFrameworkCore.Design
 
 3. create/update database
 dotnet ef database update
+
+
+
+//Git
+DatingApp > Gitinti
+            git remote add origin https://github.com/vponnur/DatingApp.git
+            git push -u origin master
